@@ -1,10 +1,12 @@
 let data = {
   navbarItems: [
     {
-      name: "Home"
+      name: "Home",
+      link: "/"
     },
     {
       name: "Services",
+      link: "/services",
       subMenu: [
         "HandyMan",
         "Electrics",
@@ -18,10 +20,12 @@ let data = {
       ]
     },
     {
-      name: "Prices"
+      name: "Prices",
+      link: "/prices"
     },
     {
-      name: "About Us"
+      name: "About Us",
+      link: "/aboutUs"
     }
   ],
   landingPage: {
@@ -341,3 +345,5 @@ let data = {
     tableStandard: {}
   }
 };
+
+export default data;
