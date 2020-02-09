@@ -2,21 +2,22 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const DropDown = props => {
-  const navItems = props.item.subMenu.map((item, i) => {
+  const { nav } = props;
+  const navItems = props.nav.subMenu.map((item, i) => {
     return (
-      <NavLink key={i} to={"/@" + item} className="dropdown-item">
+      <NavLink key={i} to={nav.link + "/" + item} className="dropdown-item">
         {item}
       </NavLink>
     );
   });
   return (
-    <li className="nav-item dropdown">
+    <li className="nav-item dropdown mx-5">
       <NavLink
         className="nav-link dropdown-toggle"
         id="dropdown01"
-        to={props.item.link}
+        to={nav.link}
       >
-        {props.item.name}
+        {nav.name}
       </NavLink>
 
       <div
