@@ -4,6 +4,7 @@ import "./App.css";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import MainNav from "./component/MainNav/MainNav";
 import LandingPage from "./Pages/LandingPage/LandingPage";
+import TopNav from "./component/TopNav/TopNav";
 class App extends Component {
   constructor() {
     super();
@@ -13,10 +14,11 @@ class App extends Component {
     console.log(this.state);
   }
   render() {
-    const { navbarItems } = this.state.data;
+    const { companyDetails, navbarItems } = this.state.data;
     return (
       <div className="App">
         <BrowserRouter>
+          <TopNav companyDetails={companyDetails} />
           <MainNav navbarItems={navbarItems} />
           <Switch>
             <Route

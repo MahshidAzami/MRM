@@ -1,4 +1,8 @@
 let data = {
+  companyDetails: {
+    name: "MRM",
+    phone: "012345678"
+  },
   navbarItems: [
     {
       name: "Home",
