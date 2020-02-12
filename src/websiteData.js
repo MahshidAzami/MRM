@@ -47,17 +47,76 @@ let data = {
         text: "one call does it all."
       }
     ],
-    heroText: "blah blah blah",
-    describeSection: {
-      heading: "blah blah 1",
-      text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    bannerForm: {
+      heading: "Looking for a Handyman?",
+      subHeading: "We solve your Home repair needs!",
       image: {
-        src:
-          "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-        alt: ""
+        src: "images/f1.png",
+        alt: "handy man"
+      },
+      form: {
+        inputs: [
+          { name: "Name", placeHolder: "your name", type: "text" },
+          { name: "Email", placeHolder: "email@example.com", type: "email" },
+          { name: "Mobile", placeHolder: "07123456789", type: "text" },
+          { name: "Address", placeHolder: "your address", type: "text" }
+        ],
+        services: [
+          "---- SELECT ----",
+          "Electrical Service",
+          "Plumbing Service",
+          "Painting",
+          "Carpentry",
+          "Gardening",
+          "Other"
+        ]
       }
+    },
+    servicePanel: {
+      firstCol: [
+        {
+          heading: "maintenance",
+          text:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
+          icon: "fa fa-cog",
+          link: "/about"
+        },
+        {
+          heading: "cleaning",
+          text:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
+          icon: "fa fa-check-square-o",
+          link: "/about"
+        }
+      ],
+      secondCol: [
+        {
+          heading: "repair",
+          text:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
+          icon: "fa fa-yelp",
+          link: "/about"
+        },
+        {
+          heading: "improvement",
+          text:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.",
+          icon: "fa fa-gg",
+          link: "/about"
+        }
+      ]
     }
+    // heroText: "blah blah blah",
+    // describeSection: {
+    //   heading: "blah blah 1",
+    //   text:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    //   image: {
+    //     src:
+    //       "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+    //     alt: ""
+    //   }
+    // }
   },
   servicesSection: {
     heading: "Our Services",
