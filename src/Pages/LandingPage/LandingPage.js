@@ -8,11 +8,11 @@ const LandingPage = ({ data }) => {
     <div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img
+          {/* <img
             className="d-block w-100 banner"
             src={landingPage.banner.src}
             alt={landingPage.banner.alt}
-          />
+          /> */}
         </div>
         <div className="container hero-text">
           <h1 className="text-center m-5"> {landingPage.heroText}</h1>

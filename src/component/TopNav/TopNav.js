@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const TopNav = ({ companyDetails }) => (
-  <div class="w3layouts-header">
-    <div class="container">
+  <div className="w3layouts-header">
+    <div className="container">
       <div className="logo-nav-agileits">
         <div className="logo-nav-left">
           <h1>
