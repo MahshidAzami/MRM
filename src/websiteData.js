@@ -33,11 +33,20 @@ let data = {
     }
   ],
   landingPage: {
-    banner: {
-      src:
-        "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
-      alt: ""
-    },
+    banner: [
+      {
+        heading: "one stop home services",
+        text: "let us do it for you."
+      },
+      {
+        heading: "one click repair service",
+        text: "repair. improve. maintain"
+      },
+      {
+        heading: "Property Maintenance Services",
+        text: "one call does it all."
+      }
+    ],
     heroText: "blah blah blah",
     describeSection: {
       heading: "blah blah 1",
