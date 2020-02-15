@@ -5,10 +5,11 @@ import Banner from "../../component/banner/banner";
 import BannerForm from "../../component/BannerForm/BannerForm";
 import ServicePanel from "../../component/ServicePanel/ServicePanel";
 import WhyUs from "../../component/WhyUs/WhyUs";
+import TrustUs from "../../component/TrustUs/TrustUs";
 
 const LandingPage = ({ data }) => {
   const {
-    landingPage: { banner, bannerForm, servicePanel, whyUs },
+    landingPage: { banner, bannerForm, servicePanel, whyUs, trustUs },
     servicesSection
   } = data;
 
@@ -25,6 +26,7 @@ const LandingPage = ({ data }) => {
         </div>
       </div>
       <WhyUs whyUs={whyUs} />
+      <TrustUs trustUs={trustUs} />
     </div>
   );
 };

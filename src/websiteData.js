@@ -140,6 +140,11 @@ let data = {
           alt: "handy man"
         }
       }
+    },
+    trustUs: {
+      heading: "service you can trust",
+      subHeading: "protect all your home appliances & systems.",
+      link: "/services"
     }
     // heroText: "blah blah blah",
     // describeSection: {
