@@ -105,6 +105,41 @@ let data = {
           link: "/about"
         }
       ]
+    },
+    whyUs: {
+      left: {
+        heading: "Why",
+        subHeading: "Choose Us"
+      },
+      right: {
+        heading: "One Stop Solution for your Complete Home Maintenance",
+        list: [
+          {
+            heading: "Vision",
+            text: "Consectetur adipiscing elit estibulum nibh urna",
+            icon: "fa fa-check"
+          },
+          {
+            heading: "Affordable",
+            text: "Consectetur adipiscing elit estibulum nibh urna",
+            icon: "fa fa-book"
+          },
+          {
+            heading: "Quality",
+            text: "Consectetur adipiscing elit estibulum nibh urna",
+            icon: "fa fa-photo"
+          },
+          {
+            heading: "24*7 Support",
+            text: "Consectetur adipiscing elit estibulum nibh urna",
+            icon: "fa fa-briefcase"
+          }
+        ],
+        image: {
+          src: "images/a1.png",
+          alt: "handy man"
+        }
+      }
     }
     // heroText: "blah blah blah",
     // describeSection: {

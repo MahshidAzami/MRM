@@ -9,7 +9,7 @@ const BannerForm = ({ bannerForm }) => (
     </div>
     <form action="#" method="post" className="banner_form">
       {bannerForm.form.inputs.map((input, i) => (
-        <div className="sec-left">
+        <div key={i} className="sec-left">
           <label className="contact-form-text">{input.name}</label>
           <input
             placeholder={input.placeholder}
@@ -23,7 +23,9 @@ const BannerForm = ({ bannerForm }) => (
         <label className="contact-form-text">Select Service</label>
         <select>
           {bannerForm.form.services.map((service, i) => (
-            <option value={i}>{service}</option>
+            <option key={i} value={i}>
+              {service}
+            </option>
           ))}
         </select>
       </div>
