@@ -5,6 +5,7 @@ import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import MainNav from "./component/MainNav/MainNav";
 import LandingPage from "./Pages/LandingPage/LandingPage";
 import TopNav from "./component/TopNav/TopNav";
+import Footer from "./component/Footer/Footer";
 class App extends Component {
   constructor() {
     super();
@@ -27,6 +28,7 @@ class App extends Component {
               exact
             />
           </Switch>
+          <Footer />
         </BrowserRouter>
       </div>
     );
