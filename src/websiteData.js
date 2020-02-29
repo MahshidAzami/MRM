@@ -160,6 +160,11 @@ let data = {
   },
   servicesSection: {
     heading: "Our Services",
+    subHeading: "services that you need we will provide at your door step",
+    hero: {
+      heading: "one click repair service",
+      subHeading: "repair. improve. maintain"
+    },
     category: [
       {
         name: "HandyMan",

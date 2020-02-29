@@ -6,6 +6,7 @@ import MainNav from "./component/MainNav/MainNav";
 import LandingPage from "./Pages/LandingPage/LandingPage";
 import TopNav from "./component/TopNav/TopNav";
 import Footer from "./component/Footer/Footer";
+import ServicesPage from "./Pages/ServicesPage/ServicesPage";
 class App extends Component {
   constructor() {
     super();
@@ -25,6 +26,13 @@ class App extends Component {
             <Route
               path="/"
               render={() => <LandingPage data={this.state.data} />}
+              exact
+            />
+            <Route
+              path="/services"
+              render={() => (
+                <ServicesPage data={this.state.data.servicesSection} />
+              )}
               exact
             />
           </Switch>
