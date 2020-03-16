@@ -472,7 +472,39 @@ let data = {
           }
         ]
       }
-    ]
+    ],
+    homeServices: {
+      title: "complete home services",
+      left: {
+        heading: "Quo modo autem philosophus",
+        subHeading:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non semper, inquam; Quo modo autem philosophus loquitur? Duo Reges: constructio interrete. Dici enim nihil potest verius. Hic ambiguo ludimur. An hoc usque quaque, aliter in vita? Bonum incolumis acies: misera caecitas. Favorite",
+        image: {
+          src: "images/g6.jpg",
+          alt: ""
+        }
+      },
+      right: [
+        {
+          heading: "plumbing services",
+          text:
+            "Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum idex pretium hendrerit",
+          link: "projects.html"
+        },
+        {
+          heading: "projects.html",
+          text:
+            "Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum idex pretium hendrerit",
+          link: "projects.html"
+        },
+        {
+          heading: "painting services",
+          text:
+            "Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum idex pretium hendrerit",
+          link: "projects.html"
+        }
+      ]
+    }
   },
   prices: {
     title: "Our Rates",

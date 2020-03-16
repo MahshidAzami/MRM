@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../../component/banner/banner";
 import Hero from "../../component/Hero/Hero";
 import ServicesPanel from "../../component/ServicesPanel/ServicesPanel";
+import HomeServices from "../../component/HomeServices/HomeServices";
 
 const ServicesPage = ({ data }) => {
   return (
@@ -28,6 +29,7 @@ const ServicesPage = ({ data }) => {
           </div>
         </div>
       </div>
+      <HomeServices homeServices={data.homeServices} />
     </React.Fragment>
   );
 };
