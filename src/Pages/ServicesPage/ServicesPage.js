@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../../component/banner/banner";
 import Hero from "../../component/Hero/Hero";
+import ServicesPanel from "../../component/ServicesPanel/ServicesPanel";
 
 const ServicesPage = ({ data }) => {
   return (
@@ -22,6 +23,7 @@ const ServicesPage = ({ data }) => {
             <div className="col-md-4 serv-grid1">
               <h4 className="sub1">{data.subHeading}</h4>
             </div>
+            <ServicesPanel category={data.category} />
             <div className="clearfix"> </div>
           </div>
         </div>

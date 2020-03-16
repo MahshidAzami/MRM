@@ -172,8 +172,7 @@ let data = {
         describtion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
-          src:
-            "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+          src: "images/t8.png",
           alt: ""
         },
         services: [
@@ -207,8 +206,7 @@ let data = {
         describtion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
-          src:
-            "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+          src: "images/t5.png",
           alt: ""
         },
         services: [
@@ -242,8 +240,7 @@ let data = {
         describtion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
-          src:
-            "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+          src: "images/t3.jpg",
           alt: ""
         },
         services: [
@@ -277,8 +274,7 @@ let data = {
         describtion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
-          src:
-            "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+          src: "images/t6.png",
           alt: ""
         },
         services: [
@@ -312,8 +308,7 @@ let data = {
         describtion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
-          src:
-            "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+          src: "images/t7.png",
           alt: ""
         },
         services: [
@@ -347,8 +342,7 @@ let data = {
         describtion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
-          src:
-            "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+          src: "images/t2.jpg",
           alt: ""
         },
         services: [
@@ -382,8 +376,7 @@ let data = {
         describtion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
-          src:
-            "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+          src: "images/t2.jpg",
           alt: ""
         },
         services: [
@@ -417,8 +410,7 @@ let data = {
         describtion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
-          src:
-            "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+          src: "images/t2.jpg",
           alt: ""
         },
         services: [
@@ -452,8 +444,7 @@ let data = {
         describtion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         image: {
-          src:
-            "https://cdn.pixabay.com/photo/2013/12/13/21/13/plumber-228010_1280.jpg",
+          src: "images/t2.jpg",
           alt: ""
         },
         services: [
